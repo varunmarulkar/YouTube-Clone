@@ -17,7 +17,7 @@ This is a React-based YouTube clone project I built while learning full-stack de
 
 ## 🛠️ How to run it
 ```bash
-git clone https://github.com/yourusername/youtube-clone.git
+git clone https://github.com/varunmarulkar/youtube-clone.git
 cd youtube-clone
 npm install
 npm start
