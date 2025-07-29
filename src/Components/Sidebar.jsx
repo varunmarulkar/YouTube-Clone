@@ -9,23 +9,26 @@ const isMenuOpen=useSelector((store)=>store.app.isMenuOpen)
 if(!isMenuOpen) return null;
 
   return (
-    <div className="fixed top-14 h-[calc(100vh-56px)] w-40 bg-white p-5 shadow-lg overflow-y-auto">
+    <div className="fixed top-14 h-[calc(100vh-56px)] w-[200px] bg-white p-5 shadow-lg overflow-y-auto">
 
-      <ul className='cursor-pointer'>
-        <li><Link to="/">Home</Link></li>
-        <li>Shorts</li>
-        <li>Subscriptions</li>
+      <ul className='cursor-pointer ml-2'>
+        <li className='mb-1'><Link to="/">Home</Link></li>
+        <li className='mb-1'>Shorts</li>
+        <li className='mb-1'>Subscriptions</li>
       </ul>
 
       <h1 className='font-bold mt-10 '>Explore</h1>
-      <ul className='cursor-pointer'>
-        <li>Trending</li>
-        <li>Shopping</li>
-        <li>Music</li>
-        <li>Movies</li>
-        <li>Gaming</li>
-        <li>News</li>
-        <li>Sports</li>
+      <ul className='cursor-pointer ml-2 max-w-full'>
+        <li className='mb-1'>Trending</li>
+        <li className='mb-1'>Shopping</li>
+        <li className='mb-1'>Music</li>
+        <li className='mb-1'>Movies</li>
+        <li className='mb-1'>Gaming</li>
+        <li className='mb-1'>News</li>
+        <li className='mb-1'>Sports</li>
+        <li className='mb-1'>Courses</li>
+        <li className='mb-1'>Fashion & Beauty</li>
+        <li className='mb-1'>Podcasts</li>
       </ul>
     </div>
   )

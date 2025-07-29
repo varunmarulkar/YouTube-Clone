@@ -1,3 +1,5 @@
+
+// Importing createSlice from Redux Toolkit
 import { createSlice } from "@reduxjs/toolkit";
 
 const searchSlice=createSlice({
